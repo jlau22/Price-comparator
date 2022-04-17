@@ -1,10 +1,11 @@
+import java.util.Stack;
 
 public class Runner {
-
-	Command command;
+	private Command command;
 	
 	public void start() {
 		command.execute();
+		
 	}
 
 	public Command getCommand() {
